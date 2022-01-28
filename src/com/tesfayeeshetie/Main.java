@@ -40,11 +40,11 @@ public class Main {
 //        ************************************************************
 
         System.out.print("What is your name?  ");
-        String name = scanner.nextLine().trim();
-        System.out.printf("Your name is %s.", name);
+        String name = scanner.next();
+        System.out.printf("Your name is %s. %n", name);
         System.out.print("How old are you?  ");
         byte age = scanner.nextByte();
-        System.out.printf("%s is %s years old.", name, age);
+        System.out.printf("%s is %s years old.%n", name, age);
 
 //        ******************************************************
 //        Conversion of temperature from Fahrenheit-to-Celsius
