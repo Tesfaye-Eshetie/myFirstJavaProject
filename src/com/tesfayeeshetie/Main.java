@@ -13,14 +13,10 @@ public class Main {
 //    ***********************************************************
 //    A function which convert pound in to kilogram
 
-    static void poundsToKilograms(float pounds) {
-        float kilograms = (pounds / 2.2046f);
-        System.out.printf("%s pounds is equal to %s kilograms.%n", pounds, kilograms);
-    }
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
         float massInPound;
         System.out.print("Insert your weight in pound then, I will convert to in kilograms? ");
 
@@ -35,7 +31,7 @@ public class Main {
                 scanner.nextLine();
             }
         }
-        poundsToKilograms(massInPound);
+        Conversion.poundsToKilograms(massInPound);
 
 //        ******************************************
 //        Body mass Calculator

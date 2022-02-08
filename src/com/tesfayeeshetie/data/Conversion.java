@@ -12,4 +12,10 @@ public class Conversion {
         fahrenheitTemperature = ((celsiusTemperature * (9f / 5f)) + 32);
         System.out.printf("%s celsius temperature is equal to %s fahrenheit temperature.%n", celsiusTemperature, fahrenheitTemperature);
     }
+
+    public static void poundsToKilograms(float pounds) {
+        float kilograms = (pounds / 2.2046f);
+        System.out.printf("%s pounds is equal to %s kilograms.%n", pounds, kilograms);
+    }
+
 }
